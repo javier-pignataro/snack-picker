@@ -1,0 +1,1 @@
+This is an web site intended for academic purposes. Has an implemented javascript code as a simple technique of picking a random elements from an array based on probabilities. Based on the youtube video : [9.4: Genetic Algorithm: Looking at Code - The Nature of Code](https://youtu.be/-jv3CgDN9sc?t=568)
