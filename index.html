@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SIMULACION.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- FONDO BACKGROUND -->
+    <div class="background-image">
+
+        <div class="contenido">
+
+            <div id="offset-viewer"></div>
+            <div class="tag-selector">Snack Picker</div>
+            <div class="selector"></div>
+            <div class="aura">
+
+                <div class="wrapper">
+                    <!-- CHUNKS (panel de cartas deslizante)-->
+                    <div class="chunks" id="chunkys">
+                        <!-- elementos -->
+                        <div class="chunk banana" id="banana">
+                            <div class="tag">Banana</div>
+                        </div>
+                        <div class="chunk chocolate" id="chocolate">
+                            <div class="tag">Wonka Chocolate</div>
+                        </div>
+                        <div class="chunk apple" id="apple">
+                            <div class="tag">Apple</div>
+                        </div>
+                        <div class="chunk orange" id="orange">
+                            <div class="tag">Orange</div>
+                        </div>
+                        <!-- fin elementos -->
+                    </div>
+                    <!-- CHUNS end -->
+                </div>
+                <!-- wrapper chunks end -->
+
+            </div>
+            <!-- AURA end -->
+
+            <div class="cont-boton">
+                <button id="boton" class="boton">Spin!</button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
