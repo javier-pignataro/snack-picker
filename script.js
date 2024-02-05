@@ -53,6 +53,7 @@ function initialice()
             chunksToLeftGlobal -= 90 * 225; // ( number of chunks to scroll ) * ( pixel per chunk )
             // chunksToLeftGlobal -= 80 * 225; // ( number of chunks to scroll ) * ( pixel per chunk )
             chunks.style.left = `${ chunksToLeftGlobal }px`
+            boton.removeEventListener( "mouseup", spin );
       }
 
       function clonacion(){
